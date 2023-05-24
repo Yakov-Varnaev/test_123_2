@@ -1,0 +1,19 @@
+{
+  "domain_0.real": {
+    "category": "",
+    "name": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 6,
+    "unit": null
+  }
+}

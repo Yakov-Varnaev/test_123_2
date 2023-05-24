@@ -1,0 +1,161 @@
+{
+  "apiVersion": "thingswise.com/v1",
+  "categories": {},
+  "functions": [],
+  "labels": {},
+  "model_hierarchy": [
+    {
+      "i18n": {},
+      "keys": [
+        "key_0"
+      ],
+      "models": [
+        "{package_0}model_0"
+      ]
+    },
+    {
+      "i18n": {},
+      "keys": [
+        "key_1"
+      ],
+      "models": [
+        "{package_0}model_1"
+      ]
+    }
+  ],
+  "models": {
+    "{package_0}model_0": {
+      "command_domains": {},
+      "event_domains": {},
+      "key": "key_0",
+      "level": 0,
+      "lookups": [
+        {
+          "lookup_domain": "Lookup",
+          "lookup_field": "key_0",
+          "name": "default"
+        }
+      ],
+      "operational_domains": {},
+      "primary_domains": {
+        "Basic": {
+          "fields": [
+            {
+              "category": [],
+              "index": false,
+              "name": "Name",
+              "type": "string"
+            }
+          ],
+          "kind": "metadata",
+          "mangled_name": "package_0___model_0__Basic"
+        },
+        "Lookup": {
+          "fields": [
+            {
+              "category": [],
+              "index": true,
+              "name": "key_0",
+              "type": "string"
+            }
+          ],
+          "kind": "lookup",
+          "mangled_name": "Lookup"
+        }
+      },
+      "rollup": true,
+      "secondary_domains": {},
+      "start_of_day": 0,
+      "superclass": [],
+      "tags": [],
+      "timezone": "Europe/Moscow"
+    },
+    "{package_0}model_1": {
+      "command_domains": {},
+      "event_domains": {},
+      "key": "key_1",
+      "level": 1,
+      "lookups": [
+        {
+          "lookup_domain": "Lookup",
+          "lookup_field": "key_1",
+          "name": "default"
+        }
+      ],
+      "operational_domains": {
+        "domain_0": {
+          "fields": [
+            {
+              "aggregated": false,
+              "category": [],
+              "decimals": 6,
+              "default_stats": "avg",
+              "index": false,
+              "kind": "direct",
+              "name": "domain_0.real",
+              "original_name": "real",
+              "policy": "drop-field",
+              "resolution": [
+                "5s",
+                "15s",
+                "1min",
+                "5min",
+                "15min",
+                "1h",
+                "12h",
+                "1d"
+              ],
+              "timeseries": true,
+              "type": "number"
+            }
+          ],
+          "groups": [],
+          "mangled_name": "package_0___model_1__domain_0"
+        }
+      },
+      "primary_domains": {
+        "Basic": {
+          "fields": [
+            {
+              "category": [],
+              "index": false,
+              "name": "Name",
+              "type": "string"
+            }
+          ],
+          "kind": "metadata",
+          "mangled_name": "package_0___model_1__Basic"
+        },
+        "Lookup": {
+          "fields": [
+            {
+              "category": [],
+              "index": true,
+              "name": "key_0",
+              "type": "string"
+            },
+            {
+              "category": [],
+              "index": true,
+              "name": "key_1",
+              "type": "string"
+            }
+          ],
+          "kind": "lookup",
+          "mangled_name": "Lookup"
+        }
+      },
+      "rollup": true,
+      "scope": "{package_0}model_0",
+      "secondary_domains": {},
+      "start_of_day": 0,
+      "superclass": [],
+      "tags": [],
+      "timezone": "Europe/Moscow"
+    }
+  },
+  "project": {
+    "lookups_enabled": false,
+    "name": "123"
+  }
+}
