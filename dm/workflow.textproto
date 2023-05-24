@@ -209,17 +209,6 @@ templates {
       }
       nodes {
         stream {
-          index: 16
-        }
-        export {
-          label: "domain_0.real"
-          resolution {
-            value: "1d"
-          }
-        }
-      }
-      nodes {
-        stream {
           index: 8
         }
         export {
@@ -281,6 +270,17 @@ templates {
           label: "domain_0.real"
           resolution {
             value: "1min"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 16
+        }
+        export {
+          label: "domain_0.real"
+          resolution {
+            value: "1d"
           }
         }
       }
