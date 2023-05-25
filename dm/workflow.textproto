@@ -12,6 +12,9 @@ templates {
       }
       dm_period: "1h"
       ttl_sec: 86400
+      fqn {
+        value: "{package_0}model_0"
+      }
     }
   }
 }
@@ -53,17 +56,6 @@ templates {
         stream {
           index: 1
         }
-        export {
-          label: "domain_0.real"
-          resolution {
-            value: "5s"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 1
-        }
         placeholder {
           spec {
             label: "domain_0.real"
@@ -75,7 +67,7 @@ templates {
       }
       nodes {
         stream {
-          index: 3
+          index: 2
         }
         time_aggregate {
           resolution: "15s"
@@ -83,7 +75,7 @@ templates {
       }
       nodes {
         stream {
-          index: 4
+          index: 3
         }
         placeholder {
           spec {
@@ -96,7 +88,7 @@ templates {
       }
       nodes {
         stream {
-          index: 5
+          index: 4
         }
         time_aggregate {
           resolution: "1min"
@@ -104,7 +96,7 @@ templates {
       }
       nodes {
         stream {
-          index: 6
+          index: 5
         }
         placeholder {
           spec {
@@ -117,7 +109,7 @@ templates {
       }
       nodes {
         stream {
-          index: 7
+          index: 6
         }
         time_aggregate {
           resolution: "5min"
@@ -125,7 +117,18 @@ templates {
       }
       nodes {
         stream {
-          index: 8
+          index: 7
+        }
+        export {
+          label: "domain_0.real"
+          resolution {
+            value: "5min"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 7
         }
         placeholder {
           spec {
@@ -190,6 +193,17 @@ templates {
         stream {
           index: 14
         }
+        export {
+          label: "domain_0.real"
+          resolution {
+            value: "12h"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 14
+        }
         placeholder {
           spec {
             label: "domain_0.real"
@@ -201,7 +215,7 @@ templates {
       }
       nodes {
         stream {
-          index: 15
+          index: 16
         }
         time_aggregate {
           resolution: "1d"
@@ -209,45 +223,12 @@ templates {
       }
       nodes {
         stream {
-          index: 8
+          index: 5
         }
         export {
           label: "domain_0.real"
           resolution {
-            value: "5min"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 12
-        }
-        export {
-          label: "domain_0.real"
-          resolution {
-            value: "1h"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 4
-        }
-        export {
-          label: "domain_0.real"
-          resolution {
-            value: "15s"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 14
-        }
-        export {
-          label: "domain_0.real"
-          resolution {
-            value: "12h"
+            value: "1min"
           }
         }
       }
@@ -264,18 +245,40 @@ templates {
       }
       nodes {
         stream {
-          index: 6
+          index: 3
         }
         export {
           label: "domain_0.real"
           resolution {
-            value: "1min"
+            value: "15s"
           }
         }
       }
       nodes {
         stream {
-          index: 16
+          index: 1
+        }
+        export {
+          label: "domain_0.real"
+          resolution {
+            value: "5s"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 12
+        }
+        export {
+          label: "domain_0.real"
+          resolution {
+            value: "1h"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 17
         }
         export {
           label: "domain_0.real"
@@ -283,6 +286,9 @@ templates {
             value: "1d"
           }
         }
+      }
+      fqn {
+        value: "{package_0}model_1"
       }
     }
   }
