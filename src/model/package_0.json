@@ -1,12 +1,12 @@
 {
-  "_id": "646f29e60ace27261a000535",
+  "_id": "646f8989184d74395dfc27c5",
   "name": "package_0",
   "package_id": "63d2dfc7c85fbfa7415fe2d2",
   "project": "123",
   "scope": "test",
   "domains": [
     {
-      "_id": "646f29e60ace27261a00053a",
+      "_id": "646f8989184d74395dfc27ca",
       "columns": [
         {
           "id": "real",
@@ -21,61 +21,14 @@
       ],
       "kind": "operational",
       "name": "domain_0",
-      "package_id": "646f29e60ace27261a000535",
+      "package_id": "646f8989184d74395dfc27c5",
       "project": "123",
       "scope": "test",
       "groups": []
     }
   ],
   "models": {
-    "646f29e60ace27261a000536": {
-      "attributes": {
-        "abstract": false,
-        "axis": {},
-        "key": "key_0",
-        "label": {
-          "i18n": {
-            "en-US": "",
-            "zh-CN": ""
-          }
-        },
-        "name": "model_0"
-      },
-      "coordinates": {
-        "x": -28,
-        "y": -73
-      },
-      "is_collapsed": false,
-      "package_id": "646f29e60ace27261a000535",
-      "package_obj_id": "646f29e60ace27261a000535",
-      "project": "123",
-      "relations": {
-        "in_scope_of": null,
-        "in_sub_class_of": []
-      },
-      "scope": "test",
-      "template_id": "1",
-      "id": "646f29e60ace27261a000536",
-      "domains": [],
-      "timezone": "Europe/Moscow",
-      "instances": [
-        {
-          "_id": "646f29e60ace27261a000538",
-          "coordinates": {
-            "x": -20,
-            "y": -258
-          },
-          "is_collapsed": false,
-          "key": "instance_0",
-          "model_id": "646f29e60ace27261a000536",
-          "package_id": "646f29e60ace27261a000535",
-          "project": "123",
-          "relations": {}
-        }
-      ],
-      "models_3d": []
-    },
-    "646f29e60ace27261a000537": {
+    "646f8989184d74395dfc27c6": {
       "attributes": {
         "abstract": false,
         "axis": {},
@@ -93,29 +46,30 @@
         "y": 145
       },
       "is_collapsed": false,
-      "package_id": "646f29e60ace27261a000535",
-      "package_obj_id": "646f29e60ace27261a000535",
+      "package_id": "646f8989184d74395dfc27c5",
+      "package_obj_id": "646f8989184d74395dfc27c5",
       "project": "123",
       "relations": {
-        "in_scope_of": "646f29e60ace27261a000536",
+        "in_scope_of": "646f8989184d74395dfc27c7",
         "in_sub_class_of": []
       },
       "scope": "test",
       "template_id": "1",
-      "id": "646f29e60ace27261a000537",
+      "id": "646f8989184d74395dfc27c6",
       "domains": [
         {
-          "_id": "646f29e60ace27261a00053b",
+          "_id": "646f8989184d74395dfc27cb",
+          "child_name": "child_name_0",
           "columns": [
             {
               "id": "real"
             }
           ],
           "kind": "operational",
-          "model_id": "646f29e60ace27261a000537",
+          "model_id": "646f8989184d74395dfc27c6",
           "name": "domain_0",
-          "package_id": "646f29e60ace27261a000535",
-          "parent_id": "646f29e60ace27261a00053a",
+          "package_id": "646f8989184d74395dfc27c5",
+          "parent_id": "646f8989184d74395dfc27ca",
           "project": "123",
           "scope": "test",
           "groups": []
@@ -124,18 +78,65 @@
       "timezone": "Europe/Moscow",
       "instances": [
         {
-          "_id": "646f29e60ace27261a000539",
+          "_id": "646f8989184d74395dfc27c8",
           "coordinates": {
             "x": 140,
             "y": -148
           },
           "is_collapsed": false,
           "key": "instance_1",
-          "model_id": "646f29e60ace27261a000537",
-          "package_id": "646f29e60ace27261a000535",
+          "model_id": "646f8989184d74395dfc27c6",
+          "package_id": "646f8989184d74395dfc27c5",
           "project": "123",
           "scope": "instance_0",
           "shift_slot_id": null,
+          "relations": {}
+        }
+      ],
+      "models_3d": []
+    },
+    "646f8989184d74395dfc27c7": {
+      "attributes": {
+        "abstract": false,
+        "axis": {},
+        "key": "key_0",
+        "label": {
+          "i18n": {
+            "en-US": "",
+            "zh-CN": ""
+          }
+        },
+        "name": "model_0"
+      },
+      "coordinates": {
+        "x": -28,
+        "y": -73
+      },
+      "is_collapsed": false,
+      "package_id": "646f8989184d74395dfc27c5",
+      "package_obj_id": "646f8989184d74395dfc27c5",
+      "project": "123",
+      "relations": {
+        "in_scope_of": null,
+        "in_sub_class_of": []
+      },
+      "scope": "test",
+      "template_id": "1",
+      "id": "646f8989184d74395dfc27c7",
+      "domains": [],
+      "timezone": "Europe/Moscow",
+      "instances": [
+        {
+          "_id": "646f8989184d74395dfc27c9",
+          "coordinates": {
+            "x": -20,
+            "y": -258
+          },
+          "is_collapsed": false,
+          "key": "instance_0",
+          "model_id": "646f8989184d74395dfc27c7",
+          "package_id": "646f8989184d74395dfc27c5",
+          "project": "123",
           "relations": {}
         }
       ],
@@ -152,16 +153,16 @@
   "categories": [],
   "keys": [
     {
-      "_id": "646f29e60ace27261a000533",
+      "_id": "646f8989184d74395dfc27c3",
       "key": "key_0",
-      "package_id": "646f29e60ace27261a000535",
+      "package_id": "646f8989184d74395dfc27c5",
       "project": "123",
       "scope": "test"
     },
     {
-      "_id": "646f29e60ace27261a000534",
+      "_id": "646f8989184d74395dfc27c4",
       "key": "key_1",
-      "package_id": "646f29e60ace27261a000535",
+      "package_id": "646f8989184d74395dfc27c5",
       "project": "123",
       "scope": "test"
     }

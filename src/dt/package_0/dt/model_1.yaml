@@ -51,7 +51,7 @@ spec:
     decimals: 6
     default_stats: avg
     kind: direct
-    name: domain_0.real
+    name: child_name_0.real
     original_name: real
     resolution:
     - 5s
@@ -65,4 +65,4 @@ spec:
     timeseries: true
     type: number
   groups: []
-  name: domain_0
+  name: child_name_0

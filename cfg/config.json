@@ -83,7 +83,7 @@
         }
       ],
       "operational_domains": {
-        "domain_0": {
+        "child_name_0": {
           "fields": [
             {
               "aggregated": false,
@@ -92,7 +92,7 @@
               "default_stats": "avg",
               "index": false,
               "kind": "direct",
-              "name": "domain_0.real",
+              "name": "child_name_0.real",
               "original_name": "real",
               "policy": "drop-field",
               "resolution": [
@@ -110,7 +110,7 @@
             }
           ],
           "groups": [],
-          "mangled_name": "package_0___model_1__domain_0"
+          "mangled_name": "package_0___model_1__child_name_0"
         }
       },
       "primary_domains": {

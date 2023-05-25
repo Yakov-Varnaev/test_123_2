@@ -1,7 +1,7 @@
 {
   "commandSpecs": {},
   "metricSpecs": {
-    "domain_0.real": {
+    "child_name_0.real": {
       "decimal": 2,
       "default-stats": "avg",
       "group": null,
@@ -13,17 +13,17 @@
       ],
       "name": {
         "i18n": {
-          "en-US": "domain_0.real"
+          "en-US": "child_name_0.real"
         }
       },
       "nameWithDomain": {
         "i18n": {
-          "en-US": "domain_0.real (domain_0)"
+          "en-US": "child_name_0.real (child_name_0)"
         }
       },
       "note": {
         "i18n": {
-          "en-US": "domain_0.real"
+          "en-US": "child_name_0.real"
         }
       },
       "querySpecs": {

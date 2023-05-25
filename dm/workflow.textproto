@@ -12,9 +12,6 @@ templates {
       }
       dm_period: "1h"
       ttl_sec: 86400
-      fqn {
-        value: "{package_0}model_0"
-      }
     }
   }
 }
@@ -35,13 +32,9 @@ templates {
       ttl_sec: 86400
       nodes {
         input {
-          stream: "domain_0_input"
+          stream: "child_name_0_input"
           field {
-            value: "domain_0.real"
-          }
-          constant {
-          }
-          default {
+            value: "child_name_0.real"
           }
         }
       }
@@ -58,7 +51,7 @@ templates {
         }
         placeholder {
           spec {
-            label: "domain_0.real"
+            label: "child_name_0.real"
             resolution {
               value: "5s"
             }
@@ -79,7 +72,7 @@ templates {
         }
         placeholder {
           spec {
-            label: "domain_0.real"
+            label: "child_name_0.real"
             resolution {
               value: "15s"
             }
@@ -100,7 +93,7 @@ templates {
         }
         placeholder {
           spec {
-            label: "domain_0.real"
+            label: "child_name_0.real"
             resolution {
               value: "1min"
             }
@@ -119,20 +112,9 @@ templates {
         stream {
           index: 7
         }
-        export {
-          label: "domain_0.real"
-          resolution {
-            value: "5min"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 7
-        }
         placeholder {
           spec {
-            label: "domain_0.real"
+            label: "child_name_0.real"
             resolution {
               value: "5min"
             }
@@ -141,7 +123,7 @@ templates {
       }
       nodes {
         stream {
-          index: 9
+          index: 8
         }
         time_aggregate {
           resolution: "15min"
@@ -149,11 +131,11 @@ templates {
       }
       nodes {
         stream {
-          index: 10
+          index: 9
         }
         placeholder {
           spec {
-            label: "domain_0.real"
+            label: "child_name_0.real"
             resolution {
               value: "15min"
             }
@@ -162,7 +144,7 @@ templates {
       }
       nodes {
         stream {
-          index: 11
+          index: 10
         }
         time_aggregate {
           resolution: "1h"
@@ -170,11 +152,11 @@ templates {
       }
       nodes {
         stream {
-          index: 12
+          index: 11
         }
         placeholder {
           spec {
-            label: "domain_0.real"
+            label: "child_name_0.real"
             resolution {
               value: "1h"
             }
@@ -183,7 +165,7 @@ templates {
       }
       nodes {
         stream {
-          index: 13
+          index: 12
         }
         time_aggregate {
           resolution: "12h"
@@ -191,10 +173,10 @@ templates {
       }
       nodes {
         stream {
-          index: 14
+          index: 13
         }
         export {
-          label: "domain_0.real"
+          label: "child_name_0.real"
           resolution {
             value: "12h"
           }
@@ -202,11 +184,11 @@ templates {
       }
       nodes {
         stream {
-          index: 14
+          index: 13
         }
         placeholder {
           spec {
-            label: "domain_0.real"
+            label: "child_name_0.real"
             resolution {
               value: "12h"
             }
@@ -215,7 +197,7 @@ templates {
       }
       nodes {
         stream {
-          index: 16
+          index: 15
         }
         time_aggregate {
           resolution: "1d"
@@ -223,10 +205,43 @@ templates {
       }
       nodes {
         stream {
+          index: 1
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "5s"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 11
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "1h"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 16
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "1d"
+          }
+        }
+      }
+      nodes {
+        stream {
           index: 5
         }
         export {
-          label: "domain_0.real"
+          label: "child_name_0.real"
           resolution {
             value: "1min"
           }
@@ -234,12 +249,12 @@ templates {
       }
       nodes {
         stream {
-          index: 10
+          index: 7
         }
         export {
-          label: "domain_0.real"
+          label: "child_name_0.real"
           resolution {
-            value: "15min"
+            value: "5min"
           }
         }
       }
@@ -248,7 +263,7 @@ templates {
           index: 3
         }
         export {
-          label: "domain_0.real"
+          label: "child_name_0.real"
           resolution {
             value: "15s"
           }
@@ -256,39 +271,14 @@ templates {
       }
       nodes {
         stream {
-          index: 1
+          index: 9
         }
         export {
-          label: "domain_0.real"
+          label: "child_name_0.real"
           resolution {
-            value: "5s"
+            value: "15min"
           }
         }
-      }
-      nodes {
-        stream {
-          index: 12
-        }
-        export {
-          label: "domain_0.real"
-          resolution {
-            value: "1h"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 17
-        }
-        export {
-          label: "domain_0.real"
-          resolution {
-            value: "1d"
-          }
-        }
-      }
-      fqn {
-        value: "{package_0}model_1"
       }
     }
   }
