@@ -193,17 +193,6 @@ templates {
         stream {
           index: 14
         }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "12h"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 14
-        }
         placeholder {
           spec {
             label: "child_name_0.real"
@@ -215,7 +204,7 @@ templates {
       }
       nodes {
         stream {
-          index: 16
+          index: 15
         }
         time_aggregate {
           resolution: "1d"
@@ -223,12 +212,12 @@ templates {
       }
       nodes {
         stream {
-          index: 1
+          index: 16
         }
         export {
           label: "child_name_0.real"
           resolution {
-            value: "5s"
+            value: "1d"
           }
         }
       }
@@ -245,12 +234,34 @@ templates {
       }
       nodes {
         stream {
-          index: 10
+          index: 14
         }
         export {
           label: "child_name_0.real"
           resolution {
-            value: "15min"
+            value: "12h"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 8
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "5min"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 1
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "5s"
           }
         }
       }
@@ -267,23 +278,12 @@ templates {
       }
       nodes {
         stream {
-          index: 17
+          index: 10
         }
         export {
           label: "child_name_0.real"
           resolution {
-            value: "1d"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 8
-        }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "5min"
+            value: "15min"
           }
         }
       }

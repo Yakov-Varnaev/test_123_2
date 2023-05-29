@@ -1,12 +1,12 @@
 {
-  "_id": "64746b4b9aab908fb1654e97",
+  "_id": "6474780ab23bf5defe762df0",
   "name": "package_0",
   "package_id": "63d2dfc7c85fbfa7415fe2d2",
   "project": "123",
   "scope": "test",
   "domains": [
     {
-      "_id": "64746b4b9aab908fb1654e9c",
+      "_id": "6474780ab23bf5defe762df5",
       "columns": [
         {
           "id": "real",
@@ -21,14 +21,14 @@
       ],
       "kind": "operational",
       "name": "domain_0",
-      "package_id": "64746b4b9aab908fb1654e97",
+      "package_id": "6474780ab23bf5defe762df0",
       "project": "123",
       "scope": "test",
       "groups": []
     }
   ],
   "models": {
-    "64746b4b9aab908fb1654e98": {
+    "6474780ab23bf5defe762df1": {
       "attributes": {
         "abstract": false,
         "axis": {},
@@ -46,19 +46,19 @@
         "y": 145
       },
       "is_collapsed": false,
-      "package_id": "64746b4b9aab908fb1654e97",
-      "package_obj_id": "64746b4b9aab908fb1654e97",
+      "package_id": "6474780ab23bf5defe762df0",
+      "package_obj_id": "6474780ab23bf5defe762df0",
       "project": "123",
       "relations": {
-        "in_scope_of": "64746b4b9aab908fb1654e99",
+        "in_scope_of": "6474780ab23bf5defe762df2",
         "in_sub_class_of": []
       },
       "scope": "test",
       "template_id": "1",
-      "id": "64746b4b9aab908fb1654e98",
+      "id": "6474780ab23bf5defe762df1",
       "domains": [
         {
-          "_id": "64746b4b9aab908fb1654e9d",
+          "_id": "6474780ab23bf5defe762df6",
           "child_name": "child_name_0",
           "columns": [
             {
@@ -66,10 +66,10 @@
             }
           ],
           "kind": "operational",
-          "model_id": "64746b4b9aab908fb1654e98",
+          "model_id": "6474780ab23bf5defe762df1",
           "name": "domain_0",
-          "package_id": "64746b4b9aab908fb1654e97",
-          "parent_id": "64746b4b9aab908fb1654e9c",
+          "package_id": "6474780ab23bf5defe762df0",
+          "parent_id": "6474780ab23bf5defe762df5",
           "project": "123",
           "scope": "test",
           "groups": []
@@ -78,15 +78,15 @@
       "timezone": "Europe/Moscow",
       "instances": [
         {
-          "_id": "64746b4b9aab908fb1654e9a",
+          "_id": "6474780ab23bf5defe762df3",
           "coordinates": {
             "x": 140,
             "y": -148
           },
           "is_collapsed": false,
           "key": "instance_1",
-          "model_id": "64746b4b9aab908fb1654e98",
-          "package_id": "64746b4b9aab908fb1654e97",
+          "model_id": "6474780ab23bf5defe762df1",
+          "package_id": "6474780ab23bf5defe762df0",
           "project": "123",
           "scope": "instance_0",
           "shift_slot_id": null,
@@ -95,7 +95,7 @@
       ],
       "models_3d": []
     },
-    "64746b4b9aab908fb1654e99": {
+    "6474780ab23bf5defe762df2": {
       "attributes": {
         "abstract": false,
         "axis": {},
@@ -113,8 +113,8 @@
         "y": -73
       },
       "is_collapsed": false,
-      "package_id": "64746b4b9aab908fb1654e97",
-      "package_obj_id": "64746b4b9aab908fb1654e97",
+      "package_id": "6474780ab23bf5defe762df0",
+      "package_obj_id": "6474780ab23bf5defe762df0",
       "project": "123",
       "relations": {
         "in_scope_of": null,
@@ -122,20 +122,20 @@
       },
       "scope": "test",
       "template_id": "1",
-      "id": "64746b4b9aab908fb1654e99",
+      "id": "6474780ab23bf5defe762df2",
       "domains": [],
       "timezone": "Europe/Moscow",
       "instances": [
         {
-          "_id": "64746b4b9aab908fb1654e9b",
+          "_id": "6474780ab23bf5defe762df4",
           "coordinates": {
             "x": -20,
             "y": -258
           },
           "is_collapsed": false,
           "key": "instance_0",
-          "model_id": "64746b4b9aab908fb1654e99",
-          "package_id": "64746b4b9aab908fb1654e97",
+          "model_id": "6474780ab23bf5defe762df2",
+          "package_id": "6474780ab23bf5defe762df0",
           "project": "123",
           "relations": {}
         }
@@ -153,16 +153,16 @@
   "categories": [],
   "keys": [
     {
-      "_id": "64746b4b9aab908fb1654e95",
+      "_id": "6474780ab23bf5defe762dee",
       "key": "key_0",
-      "package_id": "64746b4b9aab908fb1654e97",
+      "package_id": "6474780ab23bf5defe762df0",
       "project": "123",
       "scope": "test"
     },
     {
-      "_id": "64746b4b9aab908fb1654e96",
+      "_id": "6474780ab23bf5defe762def",
       "key": "key_1",
-      "package_id": "64746b4b9aab908fb1654e97",
+      "package_id": "6474780ab23bf5defe762df0",
       "project": "123",
       "scope": "test"
     }
