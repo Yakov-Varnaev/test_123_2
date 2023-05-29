@@ -12,6 +12,9 @@ templates {
       }
       dm_period: "1h"
       ttl_sec: 86400
+      fqn {
+        value: "{package_0}model_0"
+      }
     }
   }
 }
@@ -36,6 +39,10 @@ templates {
           field {
             value: "child_name_0.real"
           }
+          constant {
+          }
+          default {
+          }
         }
       }
       nodes {
@@ -43,6 +50,17 @@ templates {
         }
         time_aggregate {
           resolution: "5s"
+        }
+      }
+      nodes {
+        stream {
+          index: 1
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "5s"
+          }
         }
       }
       nodes {
@@ -60,7 +78,7 @@ templates {
       }
       nodes {
         stream {
-          index: 2
+          index: 3
         }
         time_aggregate {
           resolution: "15s"
@@ -68,7 +86,7 @@ templates {
       }
       nodes {
         stream {
-          index: 3
+          index: 4
         }
         placeholder {
           spec {
@@ -81,7 +99,7 @@ templates {
       }
       nodes {
         stream {
-          index: 4
+          index: 5
         }
         time_aggregate {
           resolution: "1min"
@@ -89,7 +107,7 @@ templates {
       }
       nodes {
         stream {
-          index: 5
+          index: 6
         }
         placeholder {
           spec {
@@ -102,7 +120,7 @@ templates {
       }
       nodes {
         stream {
-          index: 6
+          index: 7
         }
         time_aggregate {
           resolution: "5min"
@@ -110,7 +128,7 @@ templates {
       }
       nodes {
         stream {
-          index: 7
+          index: 8
         }
         placeholder {
           spec {
@@ -123,7 +141,7 @@ templates {
       }
       nodes {
         stream {
-          index: 8
+          index: 9
         }
         time_aggregate {
           resolution: "15min"
@@ -131,7 +149,7 @@ templates {
       }
       nodes {
         stream {
-          index: 9
+          index: 10
         }
         placeholder {
           spec {
@@ -144,7 +162,7 @@ templates {
       }
       nodes {
         stream {
-          index: 10
+          index: 11
         }
         time_aggregate {
           resolution: "1h"
@@ -152,7 +170,7 @@ templates {
       }
       nodes {
         stream {
-          index: 11
+          index: 12
         }
         placeholder {
           spec {
@@ -165,7 +183,7 @@ templates {
       }
       nodes {
         stream {
-          index: 12
+          index: 13
         }
         time_aggregate {
           resolution: "12h"
@@ -173,18 +191,7 @@ templates {
       }
       nodes {
         stream {
-          index: 13
-        }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "12h"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 13
+          index: 14
         }
         placeholder {
           spec {
@@ -205,28 +212,6 @@ templates {
       }
       nodes {
         stream {
-          index: 1
-        }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "5s"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 11
-        }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "1h"
-          }
-        }
-      }
-      nodes {
-        stream {
           index: 16
         }
         export {
@@ -238,7 +223,29 @@ templates {
       }
       nodes {
         stream {
-          index: 5
+          index: 14
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "12h"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 10
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "15min"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 6
         }
         export {
           label: "child_name_0.real"
@@ -249,7 +256,7 @@ templates {
       }
       nodes {
         stream {
-          index: 7
+          index: 8
         }
         export {
           label: "child_name_0.real"
@@ -260,7 +267,7 @@ templates {
       }
       nodes {
         stream {
-          index: 3
+          index: 4
         }
         export {
           label: "child_name_0.real"
@@ -271,14 +278,17 @@ templates {
       }
       nodes {
         stream {
-          index: 9
+          index: 12
         }
         export {
           label: "child_name_0.real"
           resolution {
-            value: "15min"
+            value: "1h"
           }
         }
+      }
+      fqn {
+        value: "{package_0}model_1"
       }
     }
   }
