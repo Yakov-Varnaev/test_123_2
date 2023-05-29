@@ -66,3 +66,11 @@ spec:
     type: number
   groups: []
   name: child_name_0
+---
+apiVersion: thingswise.com/v1
+kind: operationalDataDomain
+spec:
+  class: model_1
+  fields: []
+  groups: []
+  name: domain_0_1

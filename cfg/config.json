@@ -111,6 +111,11 @@
           ],
           "groups": [],
           "mangled_name": "package_0___model_1__child_name_0"
+        },
+        "domain_0_1": {
+          "fields": [],
+          "groups": [],
+          "mangled_name": "package_0___model_1__domain_0_1"
         }
       },
       "primary_domains": {

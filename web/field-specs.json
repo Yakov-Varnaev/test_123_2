@@ -15,5 +15,22 @@
     },
     "decimal": 6,
     "unit": null
+  },
+  "domain_0.comp": {
+    "category": null,
+    "name": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "note": {
+      "i18n": {
+        "zh-CN": null,
+        "en-US": null
+      }
+    },
+    "decimal": 6,
+    "unit": null
   }
 }
