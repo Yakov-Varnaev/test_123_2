@@ -77,17 +77,6 @@ templates {
         stream {
           index: 3
         }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "15s"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 3
-        }
         placeholder {
           spec {
             label: "child_name_0.real"
@@ -99,7 +88,7 @@ templates {
       }
       nodes {
         stream {
-          index: 5
+          index: 4
         }
         time_aggregate {
           resolution: "1min"
@@ -107,7 +96,7 @@ templates {
       }
       nodes {
         stream {
-          index: 6
+          index: 5
         }
         placeholder {
           spec {
@@ -120,7 +109,7 @@ templates {
       }
       nodes {
         stream {
-          index: 7
+          index: 6
         }
         time_aggregate {
           resolution: "5min"
@@ -128,7 +117,7 @@ templates {
       }
       nodes {
         stream {
-          index: 8
+          index: 7
         }
         placeholder {
           spec {
@@ -141,7 +130,7 @@ templates {
       }
       nodes {
         stream {
-          index: 9
+          index: 8
         }
         time_aggregate {
           resolution: "15min"
@@ -149,7 +138,7 @@ templates {
       }
       nodes {
         stream {
-          index: 10
+          index: 9
         }
         placeholder {
           spec {
@@ -162,7 +151,7 @@ templates {
       }
       nodes {
         stream {
-          index: 11
+          index: 10
         }
         time_aggregate {
           resolution: "1h"
@@ -170,7 +159,29 @@ templates {
       }
       nodes {
         stream {
-          index: 12
+          index: 11
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "1h"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 7
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "5min"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 11
         }
         placeholder {
           spec {
@@ -183,7 +194,7 @@ templates {
       }
       nodes {
         stream {
-          index: 13
+          index: 14
         }
         time_aggregate {
           resolution: "12h"
@@ -191,29 +202,7 @@ templates {
       }
       nodes {
         stream {
-          index: 14
-        }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "12h"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 10
-        }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "15min"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 14
+          index: 15
         }
         placeholder {
           spec {
@@ -226,7 +215,7 @@ templates {
       }
       nodes {
         stream {
-          index: 17
+          index: 16
         }
         time_aggregate {
           resolution: "1d"
@@ -234,34 +223,45 @@ templates {
       }
       nodes {
         stream {
-          index: 18
+          index: 15
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "12h"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 9
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "15min"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 3
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "15s"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 17
         }
         export {
           label: "child_name_0.real"
           resolution {
             value: "1d"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 8
-        }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "5min"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 12
-        }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "1h"
           }
         }
       }
@@ -278,7 +278,7 @@ templates {
       }
       nodes {
         stream {
-          index: 6
+          index: 5
         }
         export {
           label: "child_name_0.real"

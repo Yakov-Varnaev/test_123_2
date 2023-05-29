@@ -1,12 +1,12 @@
 {
-  "_id": "647478578d11f03ed40bc478",
+  "_id": "6474798d68a0e6486899bccf",
   "name": "package_0",
   "package_id": "63d2dfc7c85fbfa7415fe2d2",
   "project": "123",
   "scope": "test",
   "domains": [
     {
-      "_id": "647478578d11f03ed40bc47d",
+      "_id": "6474798d68a0e6486899bcd4",
       "columns": [
         {
           "id": "real",
@@ -30,14 +30,14 @@
       ],
       "kind": "operational",
       "name": "domain_0",
-      "package_id": "647478578d11f03ed40bc478",
+      "package_id": "6474798d68a0e6486899bccf",
       "project": "123",
       "scope": "test",
       "groups": []
     }
   ],
   "models": {
-    "647478578d11f03ed40bc479": {
+    "6474798d68a0e6486899bcd0": {
       "attributes": {
         "abstract": false,
         "axis": {},
@@ -55,19 +55,19 @@
         "y": 145
       },
       "is_collapsed": false,
-      "package_id": "647478578d11f03ed40bc478",
-      "package_obj_id": "647478578d11f03ed40bc478",
+      "package_id": "6474798d68a0e6486899bccf",
+      "package_obj_id": "6474798d68a0e6486899bccf",
       "project": "123",
       "relations": {
-        "in_scope_of": "647478578d11f03ed40bc47a",
+        "in_scope_of": "6474798d68a0e6486899bcd1",
         "in_sub_class_of": []
       },
       "scope": "test",
       "template_id": "1",
-      "id": "647478578d11f03ed40bc479",
+      "id": "6474798d68a0e6486899bcd0",
       "domains": [
         {
-          "_id": "647478578d11f03ed40bc47e",
+          "_id": "6474798d68a0e6486899bcd5",
           "child_name": "child_name_0",
           "columns": [
             {
@@ -75,23 +75,23 @@
             }
           ],
           "kind": "operational",
-          "model_id": "647478578d11f03ed40bc479",
+          "model_id": "6474798d68a0e6486899bcd0",
           "name": "domain_0",
-          "package_id": "647478578d11f03ed40bc478",
-          "parent_id": "647478578d11f03ed40bc47d",
+          "package_id": "6474798d68a0e6486899bccf",
+          "parent_id": "6474798d68a0e6486899bcd4",
           "project": "123",
           "scope": "test",
           "groups": []
         },
         {
-          "_id": "647478578d11f03ed40bc47f",
+          "_id": "6474798d68a0e6486899bcd6",
           "child_name": "domain_0_1",
           "columns": [],
           "kind": "operational",
-          "model_id": "647478578d11f03ed40bc479",
+          "model_id": "6474798d68a0e6486899bcd0",
           "name": "domain_0",
-          "package_id": "647478578d11f03ed40bc478",
-          "parent_id": "647478578d11f03ed40bc47d",
+          "package_id": "6474798d68a0e6486899bccf",
+          "parent_id": "6474798d68a0e6486899bcd4",
           "project": "123",
           "scope": "test",
           "groups": []
@@ -100,15 +100,15 @@
       "timezone": "Europe/Moscow",
       "instances": [
         {
-          "_id": "647478578d11f03ed40bc47b",
+          "_id": "6474798d68a0e6486899bcd2",
           "coordinates": {
             "x": 140,
             "y": -148
           },
           "is_collapsed": false,
           "key": "instance_1",
-          "model_id": "647478578d11f03ed40bc479",
-          "package_id": "647478578d11f03ed40bc478",
+          "model_id": "6474798d68a0e6486899bcd0",
+          "package_id": "6474798d68a0e6486899bccf",
           "project": "123",
           "scope": "instance_0",
           "shift_slot_id": null,
@@ -117,7 +117,7 @@
       ],
       "models_3d": []
     },
-    "647478578d11f03ed40bc47a": {
+    "6474798d68a0e6486899bcd1": {
       "attributes": {
         "abstract": false,
         "axis": {},
@@ -135,8 +135,8 @@
         "y": -73
       },
       "is_collapsed": false,
-      "package_id": "647478578d11f03ed40bc478",
-      "package_obj_id": "647478578d11f03ed40bc478",
+      "package_id": "6474798d68a0e6486899bccf",
+      "package_obj_id": "6474798d68a0e6486899bccf",
       "project": "123",
       "relations": {
         "in_scope_of": null,
@@ -144,20 +144,20 @@
       },
       "scope": "test",
       "template_id": "1",
-      "id": "647478578d11f03ed40bc47a",
+      "id": "6474798d68a0e6486899bcd1",
       "domains": [],
       "timezone": "Europe/Moscow",
       "instances": [
         {
-          "_id": "647478578d11f03ed40bc47c",
+          "_id": "6474798d68a0e6486899bcd3",
           "coordinates": {
             "x": -20,
             "y": -258
           },
           "is_collapsed": false,
           "key": "instance_0",
-          "model_id": "647478578d11f03ed40bc47a",
-          "package_id": "647478578d11f03ed40bc478",
+          "model_id": "6474798d68a0e6486899bcd1",
+          "package_id": "6474798d68a0e6486899bccf",
           "project": "123",
           "relations": {}
         }
@@ -175,16 +175,16 @@
   "categories": [],
   "keys": [
     {
-      "_id": "647478578d11f03ed40bc476",
+      "_id": "6474798d68a0e6486899bccd",
       "key": "key_0",
-      "package_id": "647478578d11f03ed40bc478",
+      "package_id": "6474798d68a0e6486899bccf",
       "project": "123",
       "scope": "test"
     },
     {
-      "_id": "647478578d11f03ed40bc477",
+      "_id": "6474798d68a0e6486899bcce",
       "key": "key_1",
-      "package_id": "647478578d11f03ed40bc478",
+      "package_id": "6474798d68a0e6486899bccf",
       "project": "123",
       "scope": "test"
     }
