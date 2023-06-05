@@ -6,6 +6,6 @@ mixins:
     key_0: string
     key_1: string
   name: Lookup
-- name: package_0___model_1__child_name_0
 - name: package_0___model_1__domain_0_1
+- name: package_0___model_1__child_name_0
 - name: package_0___model_0__Basic
