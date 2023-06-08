@@ -140,10 +140,84 @@ templates {
         stream {
           index: 9
         }
+        placeholder {
+          spec {
+            label: "child_name_0.real"
+            resolution {
+              value: "15min"
+            }
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 10
+        }
+        time_aggregate {
+          resolution: "1h"
+        }
+      }
+      nodes {
+        stream {
+          index: 11
+        }
+        placeholder {
+          spec {
+            label: "child_name_0.real"
+            resolution {
+              value: "1h"
+            }
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 12
+        }
+        time_aggregate {
+          resolution: "12h"
+        }
+      }
+      nodes {
+        stream {
+          index: 13
+        }
         export {
           label: "child_name_0.real"
           resolution {
-            value: "15min"
+            value: "12h"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 13
+        }
+        placeholder {
+          spec {
+            label: "child_name_0.real"
+            resolution {
+              value: "12h"
+            }
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 15
+        }
+        time_aggregate {
+          resolution: "1d"
+        }
+      }
+      nodes {
+        stream {
+          index: 1
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "5s"
           }
         }
       }
@@ -160,108 +234,12 @@ templates {
       }
       nodes {
         stream {
-          index: 9
-        }
-        placeholder {
-          spec {
-            label: "child_name_0.real"
-            resolution {
-              value: "15min"
-            }
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 12
-        }
-        time_aggregate {
-          resolution: "1h"
-        }
-      }
-      nodes {
-        stream {
-          index: 13
-        }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "1h"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 13
-        }
-        placeholder {
-          spec {
-            label: "child_name_0.real"
-            resolution {
-              value: "1h"
-            }
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 15
-        }
-        time_aggregate {
-          resolution: "12h"
-        }
-      }
-      nodes {
-        stream {
           index: 16
-        }
-        placeholder {
-          spec {
-            label: "child_name_0.real"
-            resolution {
-              value: "12h"
-            }
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 17
-        }
-        time_aggregate {
-          resolution: "1d"
-        }
-      }
-      nodes {
-        stream {
-          index: 18
         }
         export {
           label: "child_name_0.real"
           resolution {
             value: "1d"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 1
-        }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "5s"
-          }
-        }
-      }
-      nodes {
-        stream {
-          index: 16
-        }
-        export {
-          label: "child_name_0.real"
-          resolution {
-            value: "12h"
           }
         }
       }
@@ -278,12 +256,34 @@ templates {
       }
       nodes {
         stream {
+          index: 9
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "15min"
+          }
+        }
+      }
+      nodes {
+        stream {
           index: 3
         }
         export {
           label: "child_name_0.real"
           resolution {
             value: "15s"
+          }
+        }
+      }
+      nodes {
+        stream {
+          index: 11
+        }
+        export {
+          label: "child_name_0.real"
+          resolution {
+            value: "1h"
           }
         }
       }
